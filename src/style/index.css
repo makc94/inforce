@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+}
+.post {
+  /* display: flex; */
+  padding: 20px;
+  border: 2px solid rgb(22, 12, 12);
+  margin: 5px;
+  width: 40%;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.nav {
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid rgb(0, 0, 0);
+}
+.page-cur {
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid green;
+  background-color: rgb(143, 138, 138);
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 6px;
+}
+.input-user {
+  padding: 3px;
+  border: 2px solid rgb(0, 0, 0);
+}
